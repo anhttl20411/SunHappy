@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation">
+    <fragment
+        android:id="@+id/navigation_aboutsunhappy"
+        android:name="com.example.sunhappy.ui.aboutsunhappy.AboutsunhappyFragment"
+        android:label="SunHappy"
+        tools:layout="@layout/fragment_aboutsunhappy" />
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.sunhappy.ui.category.HomeFragment"
+        android:label="Trang chủ"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_category"
+        android:name="com.example.sunhappy.ui.home.CategoryFragment"
+        android:label="Danh mục"
+        tools:layout="@layout/fragment_category" />
+
+    <fragment
+        android:id="@+id/navigation_user"
+        android:name="com.example.sunhappy.ui.user.UserFragment"
+        android:label="Tài khoản"
+        tools:layout="@layout/fragment_user" />
+</navigation>
