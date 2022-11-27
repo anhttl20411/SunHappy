@@ -3,6 +3,8 @@ package com.example.sunhappy;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.ImageButton;
 
 import com.example.sunhappy.databinding.ActivityMainBinding;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -15,6 +17,7 @@ import androidx.navigation.ui.NavigationUI;
 public class MainActivity extends AppCompatActivity {
 
     ActivityMainBinding binding;
+    //ImageButton btnSortProduct;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,5 +40,9 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
     }
+
+
+
+    //binding.btnSortProduct.setOnCl
 
 }
